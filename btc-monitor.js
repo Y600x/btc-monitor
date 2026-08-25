@@ -3,8 +3,8 @@ const axios = require('axios');
 const interval_ms = 10000;
 const price_step = 100;
 const api_url = 'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true';
-const bot_token = 'your_bot_token_here';
-const chat_id = 'your_chat_id_here';
+const bot_token = 'token';
+const chat_id = 'chatid
 const telegram_url = `https://api.telegram.org/bot${bot_token}/sendmessage`;
 
 let last_price = null;
