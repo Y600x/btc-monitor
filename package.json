@@ -1,0 +1,12 @@
+{
+  "name": "btc-monitor",
+  "version": "1.0.0",
+  "description": "bitcoin price monitor with telegram alerts",
+  "main": "btc-monitor.js",
+  "scripts": {
+    "start": "node btc-monitor.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
